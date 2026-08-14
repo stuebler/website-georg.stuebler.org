@@ -3,69 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Georg Stübler</title>
-    <link rel="icon" href="favicon.ico" sizes="any">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/stuebler/website-assets/style.css">
+    <title>Webseite in Planung</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #1f2937;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 650px;
+            padding: 40px 25px;
+        }
+
+        .icon {
+            font-size: 80px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 18px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #6b7280;
+        }
+
+        .notice {
+            margin-top: 30px;
+            padding: 15px 20px;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            font-size: 15px;
+            color: #4b5563;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            .icon {
+                font-size: 65px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Georg Stübler</h1>
-    <p>Willkommen auf meiner Webseite</p>
-</header>
+    <main class="container">
+        <div class="icon">🚧</div>
 
+        <h1>Webseite in Planung</h1>
 
-<main class="grid">
+        <p>
+            Diese Webseite befindet sich derzeit noch im Aufbau
+            und ist momentan nicht aufrufbar.
+        </p>
 
-    <a class="card" href="https://stuebler.org">
-        <div class="icon">👨‍👩‍👧</div>
-        <h2>Familie</h2>
-        <p>Zur Familien-Webseite</p>
-    </a>
-
-    <a class="card" href="ueber-mich">
-        <div class="icon">👦</div>
-        <h2>Über mich</h2>
-        <p>Wer bin ich?</p>
-    </a>
-
-
-    <a class="card" href="projekte">
-        <div class="icon">✨</div>
-        <h2>Projekte</h2>
-        <p>Alles über meine Projekte</p>
-    </a>
-
-
-    <a class="card" href="https://wp.realraum.at/">
-        <div class="icon">🗄️</div>
-        <h2>R3</h2>
-        <p>Infos über den Realraum</p>
-    </a>
-
-
-    <a class="card" href="https://oe6.oevsv.at/ortsstellen/adl623/">
-        <div class="icon">📡</div>
-        <h2>Amateurfunk</h2>
-        <p>Alles über Obmann Georg (Offizielle Webseite, keine Projekte)</p>
-    </a>
-
-    <a class="card" href="https://fotografie.stuebler.org">
-        <div class="icon">📷</div>
-        <h2>Fotografie</h2>
-        <p>Black and White. What else?</p>
-    </a>
-
-
-
-
-</main>
-
-
-<footer>
-    © Familie Stübler
-</footer>
+        <div class="notice">
+            Bitte schauen Sie später wieder vorbei.
+        </div>
+    </main>
 
 </body>
 </html>
